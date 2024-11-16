@@ -1,30 +1,49 @@
 /*Reset style sheet*/
 * {
-  margin: 0;  
-  padding: 0;
-  box-sizing: 0;
+    margin: 0;  
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
 }
-/*Inizialising Actions*/
-.primary-button-action{
-    background-color: blue;
-    color: aliceblue;
-    border-radius: 10px;
+/*Inizial Actions*/
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+/*Inizial Actions*/
+button{
+    cursor: pointer;
+    margin: 0 8px 0px 0px;
     height: 40px;
     padding: 10px;
+    border-radius: 10px;  
+}
+.primary-button-action{
+    background-color: rgb(44, 117, 227);
     text-align: center;
+    border: none;
 }
 .secondary-button-action{
-    background-color: blue;
-    color: aliceblue;
-    border-radius: 10px;
-    height: 40px;
-    padding: 10px;
-    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(61, 61, 61);
+    color: rgb(97, 97, 97);
 }
 main div button {
     margin-bottom: 20px;
 }
-/*Inizialising heading*/
+/*InizialAccordion title*/
+h2 {
+    font-size: 30px;  
+}
+
+/*Inizial heading*/
  #header-style-top {
     margin: 24px;
  }
@@ -32,7 +51,7 @@ main div button {
 #logo-style-brand {
     width: 16%;
 }
-/*Inizialising main*/
+/*Inizial main*/
 main {
     margin: 0 auto;
     width: calc(100% - 300px);
