@@ -6,6 +6,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
 }
+/*Inizial A title*/
+h2 {
+    font-size: 30px;  
+}
 /*Inizial Actions*/
 .arrow {
     border: solid black;
@@ -37,10 +41,6 @@ button{
 }
 main div button {
     margin-bottom: 20px;
-}
-/*InizialAccordion title*/
-h2 {
-    font-size: 30px;  
 }
 
 /*Inizial heading*/
