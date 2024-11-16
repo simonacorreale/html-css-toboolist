@@ -1,5 +1,40 @@
-*{
+/*Reset style sheet*/
+* {
   margin: 0;  
   padding: 0;
   box-sizing: 0;
 }
+/*Inizialising Actions*/
+.primary-button-action{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.secondary-button-action{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+main div button {
+    margin-bottom: 20px;
+}
+/*Inizialising heading*/
+ #header-style-top {
+    margin: 24px;
+ }
+
+#logo-style-brand {
+    width: 16%;
+}
+/*Inizialising main*/
+main {
+    margin: 0 auto;
+    width: calc(100% - 300px);
+}
+
