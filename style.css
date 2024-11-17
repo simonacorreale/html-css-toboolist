@@ -28,7 +28,8 @@ h2 {
   }
 
 .accordion-title-top {
-line-height: 10px;
+display: inline-block;
+line-height: 40px;
 }
 
 /*Initial Actions*/
@@ -98,17 +99,46 @@ ul li {
     line-height: 12px;
 }
 
+.todo-cross-style {
+    border-radius: 100%;
+    border: 2px solid;
+    color: rgb(98, 154, 81);
+    padding: 4px;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    text-align: center;
+    line-height: 12px;
+}
+
 .todo-item-style{
     display: inline-block;
     padding: 0px 10px 0px 10px;
 }
 
 .todo-tag-style {
-    background-color: #2270d1;
-    padding: 4px 8px 4px 8px;
+    padding: 2px 8px 8px 8px;
     color: aliceblue;
     border-radius: 50px;
     line-height: 0px;
+}
+#goals {
+    background-color: blueviolet;
+}
+#editorial {
+    background-color: rgb(52, 89, 238);
+}
+#mobile {
+    background-color: rgb(216, 143, 16);
+}
+#recurring {
+    background-color: rgb(43, 226, 159);
+}
+#websitel {
+    background-color: rgb(226, 43, 186);
+}
+#sales {
+    background-color: rgb(103, 183, 28);
 }
 span strong {
     font-size: 10px;
