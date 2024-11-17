@@ -90,7 +90,7 @@ ul li {
 .todo-checkmark-style {
     border-radius: 100%;
     border: 2px solid;
-    color: rgb(98, 154, 81);
+    color: rgb(0, 0, 0);
     padding: 4px;
     display: inline-block;
     height: 12px;
@@ -99,16 +99,11 @@ ul li {
     line-height: 12px;
 }
 
-.todo-cross-style {
-    border-radius: 100%;
-    border: 2px solid;
-    color: rgb(98, 154, 81);
-    padding: 4px;
-    display: inline-block;
-    height: 12px;
-    width: 12px;
-    text-align: center;
-    line-height: 12px;
+ul li span .todo-success-style {
+    color: rgb(16, 184, 81);
+}
+ul li span .todo-cross-style {
+    color: rgb(154, 81, 81);
 }
 
 .todo-item-style{
@@ -134,7 +129,7 @@ ul li {
 #recurring {
     background-color: rgb(43, 226, 159);
 }
-#websitel {
+#website {
     background-color: rgb(226, 43, 186);
 }
 #sales {
