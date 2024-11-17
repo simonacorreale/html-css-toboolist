@@ -3,6 +3,13 @@
     margin: 0;  
     padding: 0;
     box-sizing: 0;
+}
+
+/*Initial main*/
+
+main {
+    margin: 0 auto;
+    width: calc(100% - 300px);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
 }
@@ -18,8 +25,8 @@ h2 {
 .arrow {
  font-size: 10px;
   }
-.accordion-title-top {
 
+.accordion-title-top {
 }
 
 /*Initial Actions*/
@@ -32,50 +39,50 @@ button{
     border-radius: 10px; 
     color: aliceblue;
 }
+
 .primary-button-action{
     background-color: rgb(44, 117, 227);
     text-align: center;
     border: none;
 }
+
 .secondary-button-action{
     background-color: rgb(255, 255, 255);
     border: 2px solid;
     color: rgb(97, 97, 97);
 }
+
 main div button {
     margin-bottom: 20px;
 }
 
 /*Initial heading*/
 
- #header-style-top {
+#header-style-top {
     margin: 24px;
- }
+}
 
 #logo-style-brand {
     width: 150px;
 }
 
-/*Initial main*/
-
-main {
-    margin: 0 auto;
-    width: calc(100% - 300px);
-}
-
 /*Initial task style list*/
 ul {
     list-style: none;
-}
-.line-style-task {
-
-padding: 10px 10px 10px 2cap0px ;
 
 }
-.checkmark-style {
 
+.todo-line-style-task {
+ padding: 10px 10px 10px 20px ;
+
+}
+
+.todo-checkmark-style {
     border-radius: 100%;
     border: 2px solid;
     color: rgb(97, 97, 97);
     padding: 4px;
+}
+
+.todo-item-style {
 }
