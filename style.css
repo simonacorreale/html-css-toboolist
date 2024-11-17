@@ -3,6 +3,7 @@
     margin: 0;  
     padding: 0;
     box-sizing: 0;
+    
 }
 
 /*Initial main*/
@@ -27,6 +28,7 @@ h2 {
   }
 
 .accordion-title-top {
+line-height: 10px;
 }
 
 /*Initial Actions*/
@@ -65,24 +67,50 @@ main div button {
 #logo-style-brand {
     width: 150px;
 }
+/*Initial task style list section*/
+.todo-section{
+    padding: 20px 0px 20px 0px;
+    
+}
 
-/*Initial task style list*/
 ul {
     list-style: none;
 
 }
+ul li {
+    padding: 10px 10px 10px 20px;
+}
 
 .todo-line-style-task {
- padding: 10px 10px 10px 20px ;
+ width: 100%;
 
 }
 
 .todo-checkmark-style {
     border-radius: 100%;
     border: 2px solid;
-    color: rgb(97, 97, 97);
+    color: rgb(98, 154, 81);
     padding: 4px;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    text-align: center;
+    line-height: 12px;
 }
 
-.todo-item-style {
+.todo-item-style{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+
+.todo-tag-style {
+    background-color: #2270d1;
+    padding: 4px 8px 4px 8px;
+    color: aliceblue;
+    border-radius: 50px;
+    line-height: 0px;
+}
+span strong {
+    font-size: 10px;
+    line-height: 0px;
 }
