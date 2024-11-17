@@ -90,19 +90,19 @@ ul li {
 .todo-checkmark-style {
     border-radius: 100%;
     border: 2px solid;
-    color: rgb(0, 0, 0);
     padding: 4px;
     display: inline-block;
-    height: 12px;
-    width: 12px;
+    height: 16px;
+    width: 16px;
     text-align: center;
-    line-height: 12px;
+    line-height: 16px;
 }
 
-ul li span .todo-success-style {
+.todo-success-style {
     color: rgb(16, 184, 81);
 }
-ul li span .todo-cross-style {
+.todo-cross-style {
+    line-height: 16px;
     color: rgb(154, 81, 81);
 }
 
