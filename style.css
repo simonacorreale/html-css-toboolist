@@ -7,37 +7,30 @@
     font-size: 16px;
 }
 
-/*Inizial A title*/
+/*Initial A title*/
 
 h2 {
-    font-size: 30px;  
+    font-size: 24px;  
 }
 
-/*Inizial Actions*/
+/*Initial Actions*/
 
 .arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    margin: 0px 10px 0px 0px;
-  }
-  .down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+ font-size: 10px;
   }
 .accordion-title-top {
 
 }
 
-/*Inizial Actions*/
+/*Initial Actions*/
 
 button{
     cursor: pointer;
     margin: 0 8px 0px 0px;
     height: 40px;
     padding: 10px;
-    border-radius: 10px;  
+    border-radius: 10px; 
+    color: aliceblue;
 }
 .primary-button-action{
     background-color: rgb(44, 117, 227);
@@ -46,27 +39,43 @@ button{
 }
 .secondary-button-action{
     background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(61, 61, 61);
+    border: 2px solid;
     color: rgb(97, 97, 97);
 }
 main div button {
     margin-bottom: 20px;
 }
 
-/*Inizial heading*/
+/*Initial heading*/
 
  #header-style-top {
     margin: 24px;
  }
 
 #logo-style-brand {
-    width: 16%;
+    width: 150px;
 }
 
-/*Inizial main*/
+/*Initial main*/
 
 main {
     margin: 0 auto;
     width: calc(100% - 300px);
 }
 
+/*Initial task style list*/
+ul {
+    list-style: none;
+}
+.line-style-task {
+
+padding: 10px 10px 10px 2cap0px ;
+
+}
+.checkmark-style {
+
+    border-radius: 100%;
+    border: 2px solid;
+    color: rgb(97, 97, 97);
+    padding: 4px;
+}
