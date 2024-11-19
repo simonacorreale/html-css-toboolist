@@ -6,13 +6,20 @@
     
 }
 
-/*Initial main*/
+/*Initial body */
 
-main {
+body {
     margin: 0 auto;
-    width: calc(100% - 300px);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
+    background-color: rgb(205, 205, 205);
+}
+main {
+    width: calc(100% - 300px);
+    margin: 40px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 /*Initial A title*/
@@ -62,11 +69,14 @@ main div button {
 /*Initial heading*/
 
 #header-style-top {
-    margin: 24px;
+   padding: 24px;
 }
 
 #logo-style-brand {
     width: 150px;
+}
+header{
+    background-color: aliceblue ;
 }
 /*Initial task style list section*/
 .todo-section{
