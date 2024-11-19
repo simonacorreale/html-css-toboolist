@@ -15,7 +15,7 @@ body {
     background-color: rgb(205, 205, 205);
 }
 main {
-    width: calc(100% - 300px);
+    width: calc(100% - 120px);
     margin: 40px;
     background-color: aliceblue;
     padding: 20px;
@@ -26,6 +26,11 @@ main {
 
 h2 {
     font-size: 24px;  
+}
+.line-cont {
+    border: 0px 0px 2px 0px solid;
+    color: rgb(0, 0, 0);
+
 }
 
 /*Initial Actions*/
@@ -77,6 +82,7 @@ main div button {
 }
 header{
     background-color: aliceblue ;
+   
 }
 /*Initial task style list section*/
 .todo-section{
